@@ -3,6 +3,8 @@ import 'package:provider/provider.dart';
 import 'package:shopx_app/providers/wishlist_cart_provider.dart' show WishlistCartProvider;
 
 class WishlistScreen extends StatelessWidget {
+  const WishlistScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     final wishlistProvider = Provider.of<WishlistCartProvider>(context);

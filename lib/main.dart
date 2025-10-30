@@ -7,18 +7,7 @@ import 'providers/wishlist_cart_provider.dart';
 import 'screens/login_screen.dart';
 import 'screens/home_screen.dart';
 
-// void main() {
-//   runApp(
-//     MultiProvider(
-//       providers: [
-//         ChangeNotifierProvider(create: (_) => AuthProvider()),
-//         ChangeNotifierProvider(create: (_) => ProductProvider()),
-//         ChangeNotifierProvider(create: (_) => WishlistCartProvider()),
-//       ],
-//       child: const MyApp(),
-//     ),
-//   );
-// }
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   
